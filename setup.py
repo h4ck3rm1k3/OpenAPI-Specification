@@ -14,7 +14,8 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'openapi-specification-python',
-    version = ":versiontools:openapi-specification-python:VERSION",
+    #version = ":versiontools:openapi-specification-python:VERSION",
+    use_scm_version=True,
     packages = find_packages(),
     author = "James Michael DuPont <jamesmikedupont@gmail.com>",
     maintainer = "James Michael DuPont <jamesmikedupont@gmail.com>",
